@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         slider.borderColor = .green
         slider.borderWidth = 2
         slider.colorHeight = 30
-        slider.valueChangeClosure = { progress in
+        slider.listen { progress in
             print(CFAbsoluteTimeGetCurrent(), progress)
         }
         view.addSubview(slider)

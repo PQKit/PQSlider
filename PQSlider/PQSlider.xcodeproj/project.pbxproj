@@ -19,6 +19,7 @@
 		6069293F237107AD00F46615 /* TestPQSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6069293E237107AD00F46615 /* TestPQSliderTests.swift */; };
 		606929482371084E00F46615 /* PQSlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606929052370FE0700F46615 /* PQSlider.framework */; };
 		606929492371084E00F46615 /* PQSlider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 606929052370FE0700F46615 /* PQSlider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60B331FC237EA7EE00716A39 /* PQSlider+public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B331FB237EA7EE00716A39 /* PQSlider+public.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		6069293A237107AD00F46615 /* TestPQSliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPQSliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6069293E237107AD00F46615 /* TestPQSliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPQSliderTests.swift; sourceTree = "<group>"; };
 		60692940237107AD00F46615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B331FB237EA7EE00716A39 /* PQSlider+public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PQSlider+public.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				606929082370FE0700F46615 /* PQSlider.h */,
 				606929092370FE0700F46615 /* Info.plist */,
 				6069291F2370FE1F00F46615 /* PQSlider.swift */,
+				60B331FB237EA7EE00716A39 /* PQSlider+public.swift */,
 			);
 			path = PQSlider;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B331FC237EA7EE00716A39 /* PQSlider+public.swift in Sources */,
 				606929202370FE1F00F46615 /* PQSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
